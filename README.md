@@ -115,15 +115,6 @@ Annotation réalisée manuellement dans le cadre du projet DAPEPANE.
 | Validation | 200 | 72 (36%) | 128 (64%) |
 | Test | 90 | 33 (37%) | 57 (63%) |
 
-### Dataset augmenté
-
-Pour améliorer l'équilibre des classes et augmenter la taille des splits, des exemples négatifs (classe 0) ont été ajoutés depuis le pool. Ces exemples sont issus de questions parlementaires non annotées, pour lesquelles l'absence de source est certaine. Un nettoyage par déduplication a également été appliqué.
-
-| Split | Total | Classe 0 | Classe 1 | Ajout |
-|-------|-------|----------|----------|-------|
-| Train | 1584 | 586 (37%) | 998 (63%) | +84 exemples négatifs |
-| Validation | 211 | 78 (37%) | 133 (63%) | +11 exemples négatifs |
-| Test | 163 | 60 (37%) | 103 (63%) | +73 exemples négatifs |
 
 ### Pool (Active Learning)
 
