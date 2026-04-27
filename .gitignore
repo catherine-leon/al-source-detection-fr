@@ -1,0 +1,18 @@
+# Checkpoints et caches modèle
+al_checkpoints/
+al_allocine_checkpoints/
+__pycache__/
+*.pyc
+.cache/
+# macOS
+.DS_Store
+# Fichiers temporaires
+~$*
+*.bak
+compte_rendu_unpacked/
+# Archives
+*.zip
+# Données lourdes (à héberger séparément si nécessaire)
+dataset/
+# Fichiers Word temporaires
+~$*.docx
