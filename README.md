@@ -105,7 +105,7 @@ Les étiquettes IOB utilisées : `O` (hors source), `B-SRC` (début de source), 
 
 Pour la classification binaire, les étiquettes IOB sont converties en label binaire : `1` si au moins un token porte `B-SRC` ou `I-SRC`, `0` sinon.
 
-### Dataset gold (annotation manuelle)
+### Dataset 
 
 Annotation réalisée manuellement dans le cadre du projet DAPEPANE.
 
