@@ -148,14 +148,15 @@ CamemBERT-base fine-tuné pour la classification de séquences (`CamembertForSeq
 
 Le seuil de décision à 0.75 (au lieu de 0.5) favorise la précision sur la classe 1 en réduisant les faux positifs.
 
-### Résultats sur le test (dataset gold)
+### Résultats sur le test 
 
-| Métrique | Valeur |
-|----------|--------|
-| Accuracy | 0.967 |
-| F1 (classe 1) | 0.964 |
-| Précision (classe 1) | 0.982 |
-| Rappel (classe 1) | 0.947 |
+|  | Précision | Recall | F1-score | Support |
+|--|-----------|--------|----------|---------|
+| Classe 0 | 0.94 | 0.97 | 0.96 | 33 |
+| Classe 1 | 0.98 | 0.96 | 0.97 | 57 |
+| **Accuracy** | | | **0.97** | **90** |
+| Macro avg | 0.96 | 0.97 | 0.96 | 90 |
+| Weighted avg | 0.97 | 0.97 | 0.97 | 90 |
 
 ### Matrice de confusion
 
