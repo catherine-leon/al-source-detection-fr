@@ -183,7 +183,8 @@ L'Active Learning vise à réduire le coût de l'annotation en sélectionnant in
 | `uncertainty` | Exemples les plus incertains : score = 1 − \|2p − 1\|, où p = probabilité classe 1 |
 | `kmeans` | Clustering KMeans sur embeddings CLS + exemple le plus incertain par cluster |
 
-### Résultats — stratégie random (11 itérations)
+
+### Résultats — stratégie random
 
 | Itération | Taille train | F1 | Accuracy |
 |-----------|-------------|-----|----------|
@@ -193,13 +194,8 @@ L'Active Learning vise à réduire le coût de l'annotation en sélectionnant in
 | 3 | 1650 | 0.9735 | 0.9667 |
 | 4 | 1700 | 0.9735 | 0.9667 |
 | 5 | 1750 | 0.9821 | 0.9778 |
-| 6 | 1800 | 0.9821 | 0.9778 |
-| 7 | 1850 | 0.9649 | 0.9556 |
-| 8 | 1900 | 0.9730 | 0.9667 |
-| 9 | 1950 | 0.9821 | 0.9778 |
-| 10 | 2000 | 0.9730 | 0.9667 |
 
-### Résultats — stratégie uncertainty (6 itérations)
+### Résultats — stratégie uncertainty
 
 | Itération | Taille train | F1 | Accuracy |
 |-----------|-------------|-----|----------|
@@ -210,30 +206,16 @@ L'Active Learning vise à réduire le coût de l'annotation en sélectionnant in
 | 4 | 1700 | 0.9643 | 0.9556 |
 | 5 | 1750 | 0.9735 | 0.9667 |
 
-Résultats — stratégie random
-Itération	Taille train	F1	Accuracy
-0	1500	0.9735	0.9667
-1	1550	0.9735	0.9667
-2	1600	0.9735	0.9667
-3	1650	0.9735	0.9667
-4	1700	0.9735	0.9667
-5	1750	0.9821	0.9778
-Résultats — stratégie uncertainty
-Itération	Taille train	F1	Accuracy
-0	1500	0.9821	0.9778
-1	1550	0.9730	0.9667
-2	1600	0.9735	0.9667
-3	1650	0.9735	0.9667
-4	1700	0.9643	0.9556
-5	1750	0.9735	0.9667
-Résultats — stratégie kmeans
-Itération	Taille train	F1	Accuracy
-0	1500	0.9821	0.9778
-1	1550	0.9735	0.9667
-2	1600	0.9735	0.9667
-3	1650	0.9739	0.9667
-4	1700	0.9735	0.9667
-5	1750	0.9649	0.9556
+### Résultats — stratégie kmeans
+
+| Itération | Taille train | F1 | Accuracy |
+|-----------|-------------|-----|----------|
+| 0 | 1500 | 0.9821 | 0.9778 |
+| 1 | 1550 | 0.9735 | 0.9667 |
+| 2 | 1600 | 0.9735 | 0.9667 |
+| 3 | 1650 | 0.9739 | 0.9667 |
+| 4 | 1700 | 0.9735 | 0.9667 |
+| 5 | 1750 | 0.9649 | 0.9556 |
 
 ### Analyse
 
