@@ -210,6 +210,31 @@ L'Active Learning vise à réduire le coût de l'annotation en sélectionnant in
 | 4 | 1700 | 0.9643 | 0.9556 |
 | 5 | 1750 | 0.9735 | 0.9667 |
 
+Résultats — stratégie random
+Itération	Taille train	F1	Accuracy
+0	1500	0.9735	0.9667
+1	1550	0.9735	0.9667
+2	1600	0.9735	0.9667
+3	1650	0.9735	0.9667
+4	1700	0.9735	0.9667
+5	1750	0.9821	0.9778
+Résultats — stratégie uncertainty
+Itération	Taille train	F1	Accuracy
+0	1500	0.9821	0.9778
+1	1550	0.9730	0.9667
+2	1600	0.9735	0.9667
+3	1650	0.9735	0.9667
+4	1700	0.9643	0.9556
+5	1750	0.9735	0.9667
+Résultats — stratégie kmeans
+Itération	Taille train	F1	Accuracy
+0	1500	0.9821	0.9778
+1	1550	0.9735	0.9667
+2	1600	0.9735	0.9667
+3	1650	0.9739	0.9667
+4	1700	0.9735	0.9667
+5	1750	0.9649	0.9556
+
 ### Analyse
 
 Le F1 oscille entre 0.964 et 0.982 sans tendance claire à la hausse. L'Active Learning n'apporte pas d'amélioration significative sur ce corpus pour deux raisons principales :
