@@ -8,7 +8,7 @@ Ce projet met en place un pipeline de classification binaire de phrases issues d
 
 Il s'agit d'une tâche de classification supervisée à deux classes, réalisée avec CamemBERT-base fine-tuné via Hugging Face Transformers. Le projet explore également l'apport de l'**Active Learning** pour réduire le coût de l'annotation : est-il possible d'améliorer les performances du modèle en ajoutant intelligemment des exemples au set d'entraînement, plutôt qu'aléatoirement ?
 
-Le pipeline couvre toutes les étapes : constitution et nettoyage du corpus, classification binaire de base, expérimentations Active Learning avec trois stratégies (random, uncertainty, KMeans), et évaluation des résultats.
+Le pipeline couvre : classification binaire de base, expérimentations Active Learning avec trois stratégies (random, uncertainty, KMeans), et évaluation des résultats.
 
 ---
 
