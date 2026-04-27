@@ -22,8 +22,9 @@ Le pipeline couvre : classification binaire de base, expérimentations Active Le
 │   ├── test.json                         
 │   └── predictions_with_context.json     # Pool pour Active Learning (~10 000 exemples)
 ├── results/
-│   ├── results_random.json               # Résultats stratégie random (11 itérations)
+│   ├── results_random.json               # Résultats stratégie random (6 itérations)
 │   └── results_uncertainty.json          # Résultats stratégie uncertainty (6 itérations)
+│   └── results_kmeans.json          # Résultats stratégie kmeans (6 itérations)
 ├── classification_binaire.py             # Classification binaire
 ├── active_learning_final.py              # Active Learning — 3 stratégies
 ├── requirements.txt
