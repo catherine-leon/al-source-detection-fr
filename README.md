@@ -17,9 +17,9 @@ Le pipeline couvre toutes les étapes : constitution et nettoyage du corpus, cla
 ```
 .
 ├── data/
-│   ├── train.json                        # Split train — dataset gold
-│   ├── valid.json                        # Split validation — dataset gold
-│   ├── test.json                         # Split test — dataset gold
+│   ├── train.json                       
+│   ├── valid.json                        
+│   ├── test.json                         
 │   └── predictions_with_context.json     # Pool pour Active Learning (~10 000 exemples)
 ├── results/
 │   ├── results_random.json               # Résultats stratégie random (11 itérations)
